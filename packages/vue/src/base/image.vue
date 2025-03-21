@@ -15,6 +15,7 @@ export interface Props<TOperations extends Operations, TOptions> extends /* @vue
   priority?: boolean;
   background?: string;
   aspectRatio?: number;
+  breakpoints: number[];
   objectFit?:
   | "contain"
   | "cover"
